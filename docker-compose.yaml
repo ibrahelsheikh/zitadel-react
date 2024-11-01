@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  react-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app # Mounts the current directory to /app in the container
+    environment:
+      - NODE_ENV=development # Example environment variable
+    restart: unless-stopped # Automatically restart unless explicitly stopped

@@ -2500,8 +2500,10 @@
   resolved "https://registry.yarnpkg.com/@xtuc/long/-/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
   integrity sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==
 
-"@zitadel/react@link:./lib":
-  version "0.0.0-development"
+"@zitadel/react@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@zitadel/react/-/react-1.0.3.tgz#6983e00a935b47cf8440efc6adfc87066f607a40"
+  integrity sha512-WCNJ2Xv1edI0JteZN6npKbmpqQc5vO5akJJxV/KxDH/xGl821EFszddKhR0m1uvlN/dwmc/QhT7HMN7pGtAlzQ==
   dependencies:
     oidc-client-ts "^2.4.0"
 

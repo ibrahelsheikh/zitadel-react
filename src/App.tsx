@@ -9,8 +9,8 @@ import Callback from "./components/Callback";
 
 function App() {
   const config: ZitadelConfig = {
-    authority: "",
-    client_id: "",
+    authority: process.env.REACT_APP_AUTHORITY,
+    client_id: process.env.REACT_APP_CLIENT_ID,
   };
 
   const zitadel = createZitadelAuth(config);
